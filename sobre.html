@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Sobre Mim</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        main {
+            display: flex; /* Flexbox para alinhar imagem e texto lado a lado */
+            justify-content: space-between; /* Espaço entre imagem e texto */
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto; /* Centraliza o conteúdo */
+        }
+        .imagem {
+            padding: 50px;
+            flex: 1; /* Faz a imagem ocupar 1 parte do espaço */
+            margin-right: 20px; /* Espaçamento à direita da imagem */
+            margin-top: 60px; /* Aumenta a margem superior */
+            max-width: 100%; /* A imagem ocupa 100% da largura do seu contêiner */
+            height: 80%; /* A altura é ajustada automaticamente */
+        }
+        
+
+        .texto {
+            flex: 1; /* O texto ocupa 1 parte do espaço */
+            color: rgb(0, 0, 0);
+            font-size: 1.1em; /* Aumenta o tamanho da fonte do texto */
+            line-height: 1.2; /* Aumenta o espaçamento entre as linhas */
+        }
+
+        /* Adiciona estilo de espaçamento entre a imagem e o texto */
+        .imagem img {
+            max-width: 100%; /* A imagem ocupa 100% da largura do seu contêiner */
+            height: 80%; /* A altura é ajustada automaticamente */
+        }
+    </style>
+</head>
+<body class="sobre-page">
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html" title="Página Inicial">Início</a></li>
+                <li><a href="sobre.html" title="Sobre Mim">Sobre Mim</a></li>
+                <li><a href="formacao.html" title="Formação">Formação</a></li>
+                <li><a href="portfolio.html" title="Portfólio">Portfólio</a></li>
+                <li><a href="contato.html" title="Contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="imagem">
+            <!-- Imagem à esquerda -->
+            <img src="images/sobrebg.png" alt="Imagem sobre mim">
+        </div>
+        <div class="texto">
+            <h1>Sobre Mim</h1>
+            <section>
+                <h2>Informações Pessoais</h2>
+                <p>Olá! Meu nome é Jeimes Vitor, e sou um estudante de Ciências de Dados, 
+                   vivo na cidade de Araras, no interior de São Paulo.
+                   Sou casado e tenho dois filhos. 
+                   Sempre fui fascinado por como os dados podem revelar histórias e moldar decisões importantes, 
+                   algo que me levou a ingressar no mundo da tecnologia e da análise.</p>
+                <p>Minha jornada é movida pela curiosidade e pela vontade de entender o "porquê" das coisas. 
+                   Acredito que a tecnologia, especialmente na área de dados, não apenas resolve problemas, 
+                   mas cria oportunidades para transformar o mundo ao nosso redor.</p>
+            </section>
+            <section>
+                <h2>Hobbies</h2>
+                
+                    <p>Leitura de livros sobre tecnologia e inovação</p>
+                    <p>Praticar Caminha ao ar livre</p>
+                    <p>Explorar novas tecnologias e tendências</p>
+                    <p>Assistir a filmes e séries</p>
+                
+            </section>
+            <section>
+                <h2>Interesses</h2>
+                <p>Sou apaixonado por inteligência artificial e  
+                    projetos que envolvam inovação e design criativo.</p>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Jeimes Vitor. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
